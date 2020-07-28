@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^/$ index.php [QSA,L]
+RewriteRule ^stancya/([a-zA-Z0-9_\-]+) stancya.php?name=$1
